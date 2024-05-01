@@ -1,4 +1,4 @@
-import {setDebug} from '@tma.js/sdk';
+import {postEvent, setDebug} from '@tma.js/sdk';
 import {DisplayGate, SDKProvider, useLaunchParams} from '@tma.js/sdk-react';
 import { TonConnectUIProvider } from '@tonconnect/ui-react';
 import { type FC, useEffect, useMemo } from 'react';
@@ -36,7 +36,7 @@ const Loading: FC = () => <div>Application is loading</div>;
 
 const Inner: FC = () => {
     const launchParams = useLaunchParams();
-
+    postEvent('web_app_set_header_color', { color: `#4A7272FF` });
     const manifestUrl = useMemo(() => {
         return new URL('tonconnect-manifest.json', window.location.href).toString();
     }, []);
