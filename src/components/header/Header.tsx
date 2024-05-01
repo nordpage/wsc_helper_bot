@@ -1,7 +1,7 @@
 import './header.css'
 import logo from '../../wsc_trans.png';
 import {useInitData} from "@tma.js/sdk-react";
-import { HiOutlineMenu } from "react-icons/hi";
+import { HiMenu } from "react-icons/hi";
 
 function Header() {
     const initData = useInitData();
@@ -10,7 +10,7 @@ function Header() {
         <div className="container">
             <img src={logo} alt="avatar" className="logo"/>
             <div>Приветствую, {initData?.user?.firstName} {initData?.user?.lastName}!</div>
-            <HiOutlineMenu />
+            <HiMenu />
         </div>
     );
 }
