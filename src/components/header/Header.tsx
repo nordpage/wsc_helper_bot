@@ -10,7 +10,7 @@ function Header() {
         <div className="container">
             <img src={logo} alt="avatar" className="logo"/>
             <div>Приветствую, {initData?.user?.firstName} {initData?.user?.lastName}!</div>
-            <HiMenu />
+            <HiMenu size="32"/>
         </div>
     );
 }
