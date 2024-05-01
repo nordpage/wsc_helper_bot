@@ -5,7 +5,7 @@ function Header() {
     console.log(initData?.user)
     return (
         <div className="container">
-            <div>{initData?.user?.firstName}</div>
+            <div>{initData?.user?.firstName} {initData?.user?.lastName}</div>
             <img src={initData?.user?.photoUrl} alt="avatar"/>
         </div>
     );
