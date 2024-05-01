@@ -1,10 +1,12 @@
 import '../App.css'
+import {useInitData} from "@tma.js/sdk-react";
 
 function App() {
+    const initData = useInitData();
 
   return (
     <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cumque excepturi natus pariatur ullam unde.
+      Hello, ${initData!.user?.username}
     </div>
   )
 }
