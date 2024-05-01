@@ -2,7 +2,7 @@
 
 .container {
     height: 70px;
-    background: rgba(74,114,114,1);
+
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
