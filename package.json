@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://wsc-helper-bot.vercel.app/",
+  "homepage": "https://nordpage.github.io/wsc_helper_bot/",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",

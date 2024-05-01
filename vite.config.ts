@@ -10,9 +10,6 @@ import vercel from 'vite-plugin-vercel';
 export default defineConfig({
   base: '/wsc_helper_bot/',
   plugins: [react(), tsconfigPaths(), vercel()],
-  vercel: {
-    outDir: '.vercel/output',
-  },
   // Uncomment the next lines in case, you would like to run Vite dev server using HTTPS and in case,
   // you have key and certificate. You retrieve your certificate and key using mkcert.
   // Learn more:
@@ -27,4 +24,7 @@ export default defineConfig({
   //   host: 'tma.internal',
   // },
   publicDir: './public',
+  vercel: {
+    outDir: '.vercel/output',
+  },
 });
