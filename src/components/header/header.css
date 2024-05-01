@@ -1,7 +1,7 @@
 .container {
     height: 70px;
-    background: #69a6a6;
-    display: flex;
+    background: rgb(134,215,215);
+    background: linear-gradient(0deg, rgba(134,215,215,1) 0%, rgba(74,114,114,1) 35%, rgba(74,114,114,1) 55%, rgba(134,215,215,1) 100%);    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
