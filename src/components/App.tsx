@@ -1,13 +1,12 @@
 import '../App.css'
-import {useInitData} from "@tma.js/sdk-react";
+import Header from "./header/Header.tsx";
 
 function App() {
-    const initData = useInitData();
 
   return (
-    <div>
-      Hello, ${initData!.user?.username}
-    </div>
+   <div>
+       <Header/>
+   </div>
   )
 }
 
