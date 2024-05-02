@@ -2,3 +2,15 @@
     height: calc(100% - 140px);
     overflow-y: hidden;
 }
+
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    margin-top: 70px;
+}
