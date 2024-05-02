@@ -10,6 +10,7 @@
     position: fixed;
     top: 0;
     width: 100vw;
+    max-width: var(--tg-viewport-width);
     height: 50px;
     font-family: "Oswald", sans-serif;
     color: #333333;
