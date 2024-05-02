@@ -25,3 +25,11 @@
     background: #b37171;
     text-decoration: none;
 }
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--tg-viewport-width);
+}
