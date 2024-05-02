@@ -8,4 +8,11 @@
 .containerApp {
   display: flex;
   flex-direction: column;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.containerApp::-webkit-scrollbar {
+  display: none;
 }
