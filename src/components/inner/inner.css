@@ -1,9 +1,5 @@
-.containerInner {
-    height: calc(100% - 140px);
-}
-
 .wrapper {
-    height: calc(100% - 100px);
+    height: calc(100% - 120px);
     margin: auto 16px;
     position: relative;
     display: flex;
