@@ -1,3 +1,5 @@
+import './button.css'
+
 type Props = {
     icon: string,
     title: string
@@ -5,9 +7,9 @@ type Props = {
 
 function Button({icon, title} : Props) {
     return (
-        <div>
-            <img src={icon} alt={icon}/>
-            <p>{title}</p>
+        <div className="Button">
+            <img src={icon} alt={icon} className="image"/>
+            <p className="text">{title}</p>
         </div>
     );
 }

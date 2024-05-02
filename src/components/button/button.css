@@ -1,0 +1,17 @@
+.Button {
+    height: 64px;
+    width: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 32px;
+    height: 32px;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+}
+
