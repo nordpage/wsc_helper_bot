@@ -9,6 +9,7 @@
     width: 100vw;
     background: #86d7d7;
     padding: 0 8px;
+    flex-basis: auto;
 }
 
 
