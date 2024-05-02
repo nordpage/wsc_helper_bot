@@ -21,3 +21,8 @@
     background: white;
     border-radius: 24px;
 }
+
+.title {
+    margin: 0;
+    padding: 0;
+}
