@@ -3,6 +3,9 @@
   margin: 0 auto;
   text-align: center;
   background: #86d7d7;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: hidden;
 }
 
 .containerApp {
@@ -10,9 +13,13 @@
   flex-direction: column;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .containerApp::-webkit-scrollbar {
+  display: none;
+}
+
+#root::-webkit-scrollbar {
   display: none;
 }
