@@ -1,9 +1,12 @@
 import './footer.css'
+import about from '../../about_icon.svg'
+import Button from "../button/Button.tsx";
 function Footer() {
     return (
         <div className="containerFooter">
-            <div className="btn">Заявка на бриф</div>
-            <div>12334</div>
+            <div className="inner">
+                <Button icon={about} title="About"/>
+            </div>
         </div>
     );
 }

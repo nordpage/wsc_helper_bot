@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className="containerHeader">
             <img src={logo} alt="avatar" className="logo"/>
-            <p className="title">1213131</p>
+            <p className="title">Приветствую, {initData?.user?.firstName} {initData?.user?.lastName}!</p>
         </div>
     );
 }
