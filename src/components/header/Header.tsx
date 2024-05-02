@@ -7,7 +7,7 @@ function Header() {
     const initData = useInitData();
     console.log(initData?.chat)
     return (
-        <div className="container">
+        <div className="containerHeader">
             <img src={logo} alt="avatar" className="logo"/>
             <div>Приветствую, {initData?.user?.firstName} {initData?.user?.lastName}!</div>
             <HiMenu size="32px"/>
