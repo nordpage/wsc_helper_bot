@@ -7,3 +7,21 @@
     align-items: center;
     width: 100vw;
 }
+
+
+.btn {
+    -webkit-box-shadow: 0 1px 3px #666666;
+    -moz-box-shadow: 0 1px 3px #666666;
+    box-shadow: 0 1px 3px #666666;
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #D78686;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #b37171;
+    text-decoration: none;
+}

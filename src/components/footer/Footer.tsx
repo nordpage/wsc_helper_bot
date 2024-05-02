@@ -2,7 +2,7 @@ import './footer.css'
 function Footer() {
     return (
         <div className="containerFooter">
-            @mobcoder
+            <div className="btn">Давайте сотрудничать</div>
         </div>
     );
 }
