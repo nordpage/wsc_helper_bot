@@ -5,11 +5,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100vw;
     background: #86d7d7;
     padding: 0 8px;
-    flex-basis: auto;
 }
 
 
