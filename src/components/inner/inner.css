@@ -9,8 +9,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-top: 70px;
 }
 
 .main-content {
-    margin-top: 70px;
+
 }
