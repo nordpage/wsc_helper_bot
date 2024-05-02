@@ -4,3 +4,8 @@
   text-align: center;
   background: #86d7d7;
 }
+
+.containerApp {
+  display: flex;
+  flex-direction: column;
+}
