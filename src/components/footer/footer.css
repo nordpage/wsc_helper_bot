@@ -1,3 +1,5 @@
 .containerFooter{
     height: 70px;
+    position: fixed;
+    bottom: 0;
 }
