@@ -36,7 +36,7 @@ const Loading: FC = () => <div>Application is loading</div>;
 
 const Inner: FC = () => {
     const launchParams = useLaunchParams();
-    postEvent('web_app_set_header_color', { color: `#4A7272FF` });
+    postEvent('web_app_set_header_color', { color: `#4A7272` });
     const manifestUrl = useMemo(() => {
         return new URL('tonconnect-manifest.json', window.location.href).toString();
     }, []);
