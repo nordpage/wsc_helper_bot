@@ -3,7 +3,8 @@
 }
 
 .wrapper {
-    height: calc(100% - 140px);
+    height: calc(100% - 100px);
+    margin: auto 16px;
     position: relative;
     display: flex;
     flex-direction: column;
